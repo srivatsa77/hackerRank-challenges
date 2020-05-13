@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    char s[] = "HackerRank ";
+  int sum,k=12 ;
+  double sum1,e=4.0 ;
+  char s1[]= " is the best place to learn and practice coding!" ;
+  sum = i + k; 
+   printf("%d",sum); 
+    printf("\n") ;
+  sum1= d + e ; 
+    printf("%0.1lf",sum1) ;
+     printf("\n") ;
+  strcat(s,s1) ; 
+  printf("%s",s) ;
+    return 0;
+}
